@@ -1,0 +1,17 @@
+// let n=prompt("enter the number")
+// n=Number.parseInt(n)
+// let i=0;
+// do{
+//     console.log(i)
+//     i++;
+// }while(i<n)
+
+let n=prompt("enter the age")
+n=Number.parseInt(n)
+if(n>4){
+    location.href="https://google.com"
+}
+
+
+let color=prompt("enter the page background color")
+document.body.style.background=color
